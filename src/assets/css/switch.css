@@ -1,0 +1,35 @@
+.switchStyle .el-switch__label{
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+    color: #fff;
+    height:20px;
+    line-height: 20px;
+  
+  }
+  .switchStyle .el-switch__label *{
+    font-size: 12px;
+  }
+  .is-checked .el-switch__label {
+    /* position: absolute; */
+    display: none;
+    color:#5d5d5d;
+    /* color: #fff; */
+  }
+  .switchStyle .el-switch__label--left {
+    z-index: 9;
+    left: 6px;
+  }
+  .switchStyle .el-switch__label--right {
+    z-index: 9;
+    left: -14px;
+  }
+  .switchStyle .el-switch__label.is-active {
+    display: block;
+  }
+  .switchStyle.el-switch .el-switch__core,
+  .el-switch .el-switch__label {
+    width: 68px !important;
+    line-height: 20px;
+  }
